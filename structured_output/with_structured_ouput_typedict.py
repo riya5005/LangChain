@@ -1,13 +1,14 @@
 from langchain_ollama import ChatOllama
-from typing import TypedDict
+#Annotated lets you add extra information (description or rules) to a data type.
+from typing import TypedDict,Annotated
 
 # Load local Llama model
 model = ChatOllama(model="llama3.2")
 
 # Define the output schema
 class Review(TypedDict):
-    summary: str
-    sentiment: str
+    summary: Annotated[str,"A brief summary of the review"]
+    sentiment: Annotated[str,"Return sentiment of the review either neg ,pos or neutral"]
 
 # Create a structured output model
 structured_model = model.with_structured_output(Review)

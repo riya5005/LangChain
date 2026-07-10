@@ -1,16 +1,19 @@
-from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
+from langchain_ollama import ChatOllama
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
-llm = HuggingFaceEndpoint(
-    repo_id="Qwen/Qwen2.5-7B-Instruct",
-    task="text-generation",
-    huggingfacehub_api_token=os.getenv("HUGGINGFACEHUB_API_TOKEN")
-)
-model = ChatHuggingFace(llm=llm)
+import os
 
+import os
+
+# llm = HuggingFaceEndpoint(
+#     repo_id="Qwen/Qwen2.5-3B-Instruct",
+#     task="text-generation",
+#     huggingfacehub_api_token=os.getenv("HF_TOKEN")
+# )
+model = ChatOllama(model="llama3.2")
 result = model.invoke("What is the capital of India?")
 print(result.content)
 
