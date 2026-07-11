@@ -6,8 +6,6 @@ load_dotenv()
 
 import os
 
-import os
-
 # llm = HuggingFaceEndpoint(
 #     repo_id="Qwen/Qwen2.5-3B-Instruct",
 #     task="text-generation",
