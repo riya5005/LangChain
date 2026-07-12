@@ -1,0 +1,11 @@
+Artificial Intelligence (AI)
+
+Artificial Intelligence (AI) is a branch of computer science that focuses on building machines capable of performing tasks that normally require human intelligence. These tasks include learning, reasoning, problem-solving, decision-making, language understanding, and visual perception.
+
+Machine Learning is a subset of Artificial Intelligence that enables computers to learn patterns from data without being explicitly programmed. Deep Learning is a specialized branch of Machine Learning that uses neural networks with multiple layers to solve complex problems such as image recognition and natural language processing.
+
+AI is widely used in many industries. In healthcare, it helps doctors diagnose diseases and recommend treatments. In finance, AI detects fraudulent transactions and predicts market trends. In transportation, self-driving cars use AI to understand their surroundings and make driving decisions. Virtual assistants such as Siri, Alexa, and Google Assistant also rely on AI technologies.
+
+Although AI offers many benefits, it also presents challenges. Privacy concerns, biased algorithms, job automation, and ethical decision-making are some of the major issues researchers continue to address. Responsible AI development aims to make AI systems fair, transparent, secure, and beneficial to society.
+
+The future of Artificial Intelligence is promising. As technology continues to evolve, AI is expected to improve healthcare, education, scientific research, cybersecurity, and many other fields. Continuous research and responsible innovation will play a key role in shaping the future of AI.
